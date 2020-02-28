@@ -2,6 +2,7 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 // middleware
 
+
 const app = express();
 
 app.use('/graphql'.graphqlHTTP({
