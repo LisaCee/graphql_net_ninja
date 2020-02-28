@@ -5,7 +5,7 @@ const graphqlHTTP = require('express-graphql');
 const app = express();
 
 app.use('/graphql'.graphqlHTTP({
-    // options will go here
+    
 }));
 
 app.listen(4000, ()=> {
